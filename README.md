@@ -1,2 +1,2 @@
 # MyWebsite
- This is my personal website. Just download MyWeb folder and open index2 to see it.
+ This is my personal website. Just download MyWebsite folder and open index2 to see it.
