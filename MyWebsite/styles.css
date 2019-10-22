@@ -1,0 +1,152 @@
+body{
+    background: rgb(36, 36, 39);
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+/* HEADER */
+header{
+    background: black;
+    padding: 20px 0px;
+    text-align: center;
+    height: 120px;
+    background-image: url("images/logobar.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+header .logo {
+    background-image: url("images/studioLogo1.png");
+    background-size: 230px 150px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    top: -55px;
+    width: 220px;
+    height: 110px;
+    text-indent: -999999px;
+}
+header button{
+    display: flex;
+    background-color: rgb(86, 91, 100);
+    color: white;
+    font-size: 10px;
+    margin: -20px 0px 0px 0px;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px; 
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+    font-size: 25px;
+    margin: 40px 10px 0px 10px;
+}
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: bold;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+/* RESPONSIVE RULES */
+@media screen and (max-width: 470px){
+    header .logo{
+        top: 30px;
+    }
+    header{
+        height: 250px;
+        background-position: 0px 0px;
+    }
+}
+h1{
+    text-align: center;
+    margin-left: -40px;
+}
+/* SECTIONS */
+section{
+    background: rgb(27, 27, 27);
+    color: rgb(211, 211, 211);
+    padding: 0px 20px;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.firstGame{
+    background: rgb(27, 27, 27);
+    color: rgb(211, 211, 211);
+    padding: 0px 0px;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.firstGame figure{
+    padding: 0px 30px;
+    align-self: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 70px 0px 0px;
+    width: 200px;   
+}
+.firstGame figure img{
+    border: 1px solid white;
+    border-radius: 0%;
+    box-shadow: grey 0px 0px 10px;
+    width: 250px;
+    height: 350px;
+}
+.firstGame nav{
+    padding: 0px 20px;
+    margin: 10px 20px 0px 10px;
+    text-align: left;
+}
+
+
+.secondGame{
+    background: rgb(27, 27, 27);
+    color: rgb(211, 211, 211);
+    padding: 0px 0px;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.secondGame figure{
+    padding: 0px 30px;
+    align-self: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 70px 0px 0px;
+    width: 500px;   
+}
+.secondGame figure img{
+    border: 1px solid white;
+    border-radius: 0%;
+    box-shadow: grey 0px 0px 10px;
+    width: 500px;
+    height: 300px;
+}
+.secondGame nav{
+    padding: 0px 20px;
+    margin: 10px 20px 0px 10px;
+    text-align: left;
+}
+
+
+/* Footer */
+footer{
+
+    background: black;
+    color:gray;
+    text-align: center;
+    font-size: 10px;
+    padding: 5px;
+}
+
+
